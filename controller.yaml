@@ -25,16 +25,16 @@ items:
     - healthReporting:
         enabled: true
     - configurationAsCode:
-        bundle: devsecops-rimac-dev-controller
+        bundle: bundle
     configuration:
       kubernetes:
         memory: 4000
         cpus: 1.0
         clusterEndpointId: default
         disk: 10
-        storageClassName: 
+        storageClassName: gp2
         domain: devsecops-rimac-dev-controller
-        namespace: controllers
+        namespace: cloudbees-core
         yaml: |
           kind: StatefulSet
           spec:
