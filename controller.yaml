@@ -25,7 +25,7 @@ items:
     - healthReporting:
         enabled: true
     - configurationAsCode:
-        bundle: bundle
+        bundle: devsecops-rimac-dev-controller
     configuration:
       kubernetes:
         memory: 4000
