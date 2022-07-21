@@ -34,7 +34,7 @@ items:
         disk: 10
         storageClassName: 
         domain: devsecops-rimac-dev-controller
-        namespace: cloudbees-core
+        namespace: 
         yaml: |
           kind: StatefulSet
           spec:
